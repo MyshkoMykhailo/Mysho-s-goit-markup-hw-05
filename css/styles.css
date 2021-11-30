@@ -704,3 +704,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
+.portfolio-list-item-link:hover .portfolio-list-item-text,
+.portfolio-list-item-link:focus .portfolio-list-item-text {
+  color: var(--text-main-color);
+}
